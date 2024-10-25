@@ -18,14 +18,7 @@ template:
     - resourceNameOverride: ''
     - runWhenModelUpdates: true
     - showFailureToaster: true
-    - query: |-
-        console.log('will this save')
-        return [
-          { message: "Hello from Workflows" },
-          { message: "Click the Run (▶) button to execute this block" },
-          { message: "Drag from the green sequence port to connect a new block" },
-          { message: "Click the help (?) button to learn more" },
-        ];
+    - query: return 'testing'
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
@@ -77,11 +70,11 @@ template:
     - queryThrottleTime: '750'
     - updateSetValueDynamically: false
     - notificationDuration: ''
-createdAt: 2024-10-25T17:57:46.598Z
+createdAt: 2024-10-25T18:02:47.506Z
 blockData:
   top: 48
   left: 480
-  uuid: 429a7982-9516-4bd9-ac5e-49228c33f547
+  uuid: fe8ed2e3-851f-47a5-92d0-3a3c915c0d0c
   pluginId: code1
   blockType: code
   dimensions:
@@ -90,4 +83,4 @@ blockData:
   editorType: JavascriptQuery
   resourceName: JavascriptQuery
   incomingOnSuccessEdges:
-    - 290de2dd-1889-4bba-a8c1-10bfb00f043c
+    - 8ddbf809-0e08-439a-a24d-c263624105eb

@@ -19,7 +19,6 @@ template:
     - runWhenModelUpdates: true
     - showFailureToaster: true
     - query: |-
-        console.log('will this save')
         return [
           { message: "Hello from Workflows" },
           { message: "Click the Run (▶) button to execute this block" },
@@ -77,11 +76,11 @@ template:
     - queryThrottleTime: '750'
     - updateSetValueDynamically: false
     - notificationDuration: ''
-createdAt: 2024-10-25T17:57:46.598Z
+createdAt: 2024-10-25T18:11:45.061Z
 blockData:
   top: 48
   left: 480
-  uuid: 429a7982-9516-4bd9-ac5e-49228c33f547
+  uuid: a12fff44-c5d5-43c6-b4de-b3a0ddc26207
   pluginId: code1
   blockType: code
   dimensions:
@@ -90,4 +89,4 @@ blockData:
   editorType: JavascriptQuery
   resourceName: JavascriptQuery
   incomingOnSuccessEdges:
-    - 290de2dd-1889-4bba-a8c1-10bfb00f043c
+    - f4e1845c-1d82-4a13-af65-0ce4b8ef5a42
