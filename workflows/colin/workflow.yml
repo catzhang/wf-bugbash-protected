@@ -1,0 +1,177 @@
+pythonLanguageConfiguration:
+  object:
+    id: 86156af6-7597-4a6c-b890-50e7ecd13a95
+    name: workflow_python_1d5adfb2-3e88-487f-b783-44268effbcf7
+    description: null
+    libraries:
+      object:
+        hypixel:
+          object:
+            specVersion: 0.8.0
+            actualVersion: ''
+    librariesFormat: requirements.txt
+    language: python
+customLibraries:
+  array:
+    - object:
+        version: 0.8.0
+        language: python
+        codeString: ''
+        libraryName: hypixel
+    - object:
+        version: 3.4.0
+        language: javascript
+        codeString: |
+          /* Edit library variable below */
+
+          const uuid = require('uuid')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+        libraryName: uuid
+    - object:
+        version: 4.17.21
+        language: javascript
+        codeString: |
+          /* Edit library variable below */
+
+          const _ = require('lodash')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+        libraryName: lodash
+    - object:
+        version: 2.1.0
+        language: javascript
+        codeString: |
+          /* Edit library variable below */
+
+          const numbro = require('numbro')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+        libraryName: numbro
+    - object:
+        version: 3.2.1
+        language: javascript
+        codeString: ''
+        libraryName: pokemon
+    - object:
+        version: 5.3.2
+        language: javascript
+        codeString: |
+          /* Edit library variable below */
+
+          const Papa = require('papaparse')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+        libraryName: papaparse
+    - object:
+        version: 0.5.23
+        language: javascript
+        codeString: |
+          /* Edit library variable below */
+
+          const moment = require('moment-timezone')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+        libraryName: moment-timezone
+name: colin
+setupScripts:
+  object:
+    python:
+      object:
+        codeString: ''
+    javascript:
+      object:
+        codeString: |
+          // lodash
+          /* Edit library variable below */
+
+          const _ = require('lodash')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+
+          // numbro
+          /* Edit library variable below */
+
+          const numbro = require('numbro')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+
+          // papaparse
+          /* Edit library variable below */
+
+          const Papa = require('papaparse')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+
+          // moment-timezone
+          /* Edit library variable below */
+
+          const moment = require('moment-timezone')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+
+          // uuid
+          /* Edit library variable below */
+
+          const uuid = require('uuid')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+javascriptLanguageConfiguration:
+  object:
+    id: e43f4f24-28f4-46e9-b7c2-eec1f18407d1
+    name: workflow_javascript_1d5adfb2-3e88-487f-b783-44268effbcf7
+    description: null
+    libraries:
+      object:
+        uuid:
+          object:
+            specVersion: 3.4.0
+            actualVersion: ''
+        lodash:
+          object:
+            specVersion: 4.17.21
+            actualVersion: ''
+        numbro:
+          object:
+            specVersion: 2.1.0
+            actualVersion: ''
+        pokemon:
+          object:
+            specVersion: 3.2.1
+            actualVersion: ''
+        papaparse:
+          object:
+            specVersion: 5.3.2
+            actualVersion: ''
+        moment-timezone:
+          object:
+            specVersion: 0.5.23
+            actualVersion: ''
+    librariesFormat: package.json
+    language: javascript
+triggerWebhooks:
+  array:
+    - object:
+        name: startTrigger
+        uuid: startTrigger
+        inputSchema:
+          object:
+            properties:
+              array: []
+        useHeaderApiKey: false
+        exampleInputJSON: ''
+version: 43.0.9
+workflowId: 1d5adfb2-3e88-487f-b783-44268effbcf7
+description: null
+workflowTemplate:
+  version: 3.111.0
