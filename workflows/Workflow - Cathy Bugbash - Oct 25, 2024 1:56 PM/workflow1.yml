@@ -1,7 +1,7 @@
-id: startTrigger
+id: workflow1
 type: datasource
-subtype: JavascriptQuery
-resourceName: JavascriptQuery
+subtype: WorkflowRun
+resourceName: WorkflowRun
 template:
   ordered:
     - queryRefreshTime: ''
@@ -18,7 +18,7 @@ template:
     - resourceNameOverride: ''
     - runWhenModelUpdates: false
     - showFailureToaster: true
-    - query: return null
+    - query: ''
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
@@ -29,12 +29,12 @@ template:
     - data: null
     - importedQueryInputs:
         ordered: []
-    - _additionalScope: []
     - isImported: false
     - showSuccessToaster: true
     - cacheKeyTtl: ''
     - requestSentTimestamp: null
     - metadata: null
+    - editorMode: sql
     - queryRunTime: null
     - changesetObject: ''
     - errorTransformer: return data.error
@@ -69,15 +69,16 @@ template:
     - queryThrottleTime: '750'
     - updateSetValueDynamically: false
     - notificationDuration: ''
-createdAt: 2024-10-25T17:56:52.094Z
+createdAt: 2024-10-25T18:00:32.468Z
 blockData:
-  top: 48
-  left: 48
-  uuid: a8b5bca5-0e58-4ff4-8847-f344012242f4
-  options: {}
-  pluginId: startTrigger
-  blockType: webhook
-  editorType: JavascriptQuery
-  isMinimized: false
-  resourceName: JavascriptQuery
+  top: 96
+  left: 2304
+  uuid: d622f592-d4e8-454d-af5d-55e47f22fbad
+  pluginId: workflow1
+  blockType: default
+  editorType: WorkflowRun
+  resourceName: WorkflowRun
+  incomingPorts:
+    - portId: 64f15835-dea1-4cda-b734-2932d500d90b
+      blockId: 6f603f0b-a5f1-45d5-886f-3fdcfcb9a9cf
   incomingOnSuccessEdges: []
