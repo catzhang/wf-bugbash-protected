@@ -72,7 +72,7 @@ template:
 createdAt: 2024-10-25T17:56:57.943Z
 blockData:
   top: -64
-  left: 1312
+  left: 1440
   uuid: 9d356b40-6d25-466b-aa23-4828a90168ad
   pluginId: code3
   blockType: code
