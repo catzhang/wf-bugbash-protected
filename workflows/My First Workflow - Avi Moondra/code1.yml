@@ -19,6 +19,7 @@ template:
     - runWhenModelUpdates: true
     - showFailureToaster: true
     - query: |-
+        console.log('hi')
         return [
           { message: "Hello from Workflows" },
           { message: "Click the Run (▶) button to execute this block" },
