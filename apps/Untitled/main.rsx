@@ -36,6 +36,7 @@
       value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
       verticalAlign="center"
     />
+    <Button id="button2" text="Button" />
     <Button id="button1" text="Button" />
     <Container
       id="tabbedContainer1"
