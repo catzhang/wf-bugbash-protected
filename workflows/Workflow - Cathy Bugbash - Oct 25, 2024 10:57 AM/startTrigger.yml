@@ -69,15 +69,15 @@ template:
     - queryThrottleTime: '750'
     - updateSetValueDynamically: false
     - notificationDuration: ''
-createdAt: 2024-10-25T17:54:50.267Z
+createdAt: 2024-10-25T17:57:20.253Z
 blockData:
   top: 48
   left: 48
-  uuid: 22d60e5b-7667-47eb-8478-65f46d28d50a
+  uuid: 42bc5fff-9ab9-494f-932f-5e735e763998
   options: {}
   pluginId: startTrigger
   blockType: webhook
   editorType: JavascriptQuery
   isMinimized: false
-  resourceName: JavascriptQuery
+  resourceName: webhook
   incomingOnSuccessEdges: []
