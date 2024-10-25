@@ -1,4 +1,4 @@
-id: code1
+id: code3
 type: datasource
 subtype: JavascriptQuery
 resourceName: JavascriptQuery
@@ -16,16 +16,9 @@ template:
     - playgroundQuerySaveId: latest
     - workflowParams: null
     - resourceNameOverride: ''
-    - runWhenModelUpdates: true
+    - runWhenModelUpdates: false
     - showFailureToaster: true
-    - query: |-
-        console.log('will this save')
-        return [
-          { message: "Hello from Workflows" },
-          { message: "Click the Run (▶) button to execute this block" },
-          { message: "Drag from the green sequence port to connect a new block" },
-          { message: "Click the help (?) button to learn more" },
-        ];
+    - query: return query2.data
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
@@ -42,7 +35,6 @@ template:
     - cacheKeyTtl: ''
     - requestSentTimestamp: null
     - metadata: null
-    - editorMode: sql
     - queryRunTime: null
     - changesetObject: ''
     - errorTransformer: return data.error
@@ -66,7 +58,7 @@ template:
     - runWhenPageLoads: false
     - transformer: return data
     - events: []
-    - queryTimeout: '120000'
+    - queryTimeout: '10000'
     - workflowId: null
     - requireConfirmation: false
     - queryFailureConditions: ''
@@ -77,17 +69,14 @@ template:
     - queryThrottleTime: '750'
     - updateSetValueDynamically: false
     - notificationDuration: ''
-createdAt: 2024-10-25T17:57:46.598Z
+createdAt: 2024-10-25T18:02:56.163Z
 blockData:
-  top: 48
-  left: 480
-  uuid: 429a7982-9516-4bd9-ac5e-49228c33f547
-  pluginId: code1
+  top: 384
+  left: 2000
+  uuid: db14b185-cec3-4916-92e9-c1cf322e5987
+  pluginId: code3
   blockType: code
-  dimensions:
-    width: 400
-    height: 280
   editorType: JavascriptQuery
   resourceName: JavascriptQuery
   incomingOnSuccessEdges:
-    - 290de2dd-1889-4bba-a8c1-10bfb00f043c
+    - 1f90d1c2-cf41-43fc-b1ca-b763aa4a44da
