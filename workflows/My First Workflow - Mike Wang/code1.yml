@@ -78,8 +78,8 @@ template:
     - notificationDuration: ''
 createdAt: 2024-10-25T18:09:28.128Z
 blockData:
-  top: 48
-  left: 480
+  top: 176
+  left: 592
   uuid: b02b21fa-e50f-4d4b-ace6-d01db96ff2ba
   pluginId: code1
   blockType: code
