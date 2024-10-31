@@ -1,7 +1,7 @@
-id: code1
+id: startTrigger
 type: datasource
-subtype: PythonQuery
-resourceName: PythonQuery
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
 template:
   ordered:
     - queryRefreshTime: ''
@@ -18,7 +18,7 @@ template:
     - resourceNameOverride: ''
     - runWhenModelUpdates: false
     - showFailureToaster: true
-    - query: return "Hello mesi - pt 2"
+    - query: return null
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
@@ -29,6 +29,7 @@ template:
     - data: null
     - importedQueryInputs:
         ordered: []
+    - _additionalScope: []
     - isImported: false
     - showSuccessToaster: true
     - cacheKeyTtl: ''
@@ -69,17 +70,15 @@ template:
     - queryThrottleTime: '750'
     - updateSetValueDynamically: false
     - notificationDuration: ''
-createdAt: 2024-10-31T18:07:23.269Z
+createdAt: 2024-10-31T18:32:37.512Z
 blockData:
   top: 48
-  left: 480
-  uuid: 36f0be74-03d5-470d-9a6b-772b7fe41e0b
-  pluginId: code1
-  blockType: code
-  dimensions:
-    width: 400
-    height: 280
-  editorType: PythonQuery
-  resourceName: PythonQuery
-  incomingOnSuccessEdges:
-    - b34600cd-a944-4dce-9862-85f699548e6f
+  left: 48
+  uuid: bd9cfd18-b3b6-4a22-a27c-96809f6af673
+  options: {}
+  pluginId: startTrigger
+  blockType: webhook
+  editorType: JavascriptQuery
+  isMinimized: false
+  resourceName: webhook
+  incomingOnSuccessEdges: []
