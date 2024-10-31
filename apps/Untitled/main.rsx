@@ -31,11 +31,7 @@
         />
       </Footer>
     </Form>
-    <Text
-      id="text1"
-      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
-      verticalAlign="center"
-    />
+    <Button id="button2" text="Button" />
     <Button id="button1" text="Button" />
     <Container
       id="tabbedContainer1"
@@ -76,5 +72,10 @@
       <Option id="35bf4" value="Option 2" />
       <Option id="80411" value="Option 3" />
     </Select>
+    <Text
+      id="text1"
+      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
+      verticalAlign="center"
+    />
   </Frame>
 </App>

@@ -1,7 +1,7 @@
-id: code1
+id: code3
 type: datasource
-subtype: PythonQuery
-resourceName: PythonQuery
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
 template:
   ordered:
     - queryRefreshTime: ''
@@ -18,7 +18,7 @@ template:
     - resourceNameOverride: ''
     - runWhenModelUpdates: false
     - showFailureToaster: true
-    - query: return "Hello mesi - pt 2"
+    - query: 'return { id: 1, firstName: "Jane" }'
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
@@ -29,6 +29,7 @@ template:
     - data: null
     - importedQueryInputs:
         ordered: []
+    - _additionalScope: []
     - isImported: false
     - showSuccessToaster: true
     - cacheKeyTtl: ''
@@ -69,17 +70,13 @@ template:
     - queryThrottleTime: '750'
     - updateSetValueDynamically: false
     - notificationDuration: ''
-createdAt: 2024-10-31T18:07:23.269Z
+createdAt: 2024-10-31T18:26:52.808Z
 blockData:
-  top: 48
-  left: 480
-  uuid: 36f0be74-03d5-470d-9a6b-772b7fe41e0b
-  pluginId: code1
+  top: 16
+  left: 1664
+  uuid: e2080c09-6adb-4ec5-b66d-0c4b3c7c71c3
+  pluginId: code3
   blockType: code
-  dimensions:
-    width: 400
-    height: 280
-  editorType: PythonQuery
-  resourceName: PythonQuery
-  incomingOnSuccessEdges:
-    - b34600cd-a944-4dce-9862-85f699548e6f
+  editorType: JavascriptQuery
+  resourceName: JavascriptQuery
+  incomingOnSuccessEdges: []

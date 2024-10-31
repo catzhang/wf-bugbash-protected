@@ -1,12 +1,14 @@
-id: code1
+id: query2
 type: datasource
-subtype: PythonQuery
-resourceName: PythonQuery
+subtype: RESTQuery
+resourceName: REST-WithoutResource
 template:
   ordered:
     - queryRefreshTime: ''
+    - paginationLimit: ''
     - allowedGroupIds: []
     - streamResponse: false
+    - body: ''
     - lastReceivedFromResourceAt: null
     - queryDisabledMessage: ''
     - servedFromCache: false
@@ -16,9 +18,12 @@ template:
     - playgroundQuerySaveId: latest
     - workflowParams: null
     - resourceNameOverride: ''
-    - runWhenModelUpdates: false
+    - runWhenModelUpdates: true
+    - paginationPaginationField: ''
+    - headers: ''
     - showFailureToaster: true
-    - query: return "Hello mesi - pt 2"
+    - paginationEnabled: false
+    - query: ''
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
@@ -33,6 +38,7 @@ template:
     - showSuccessToaster: true
     - cacheKeyTtl: ''
     - requestSentTimestamp: null
+    - cookies: ''
     - metadata: null
     - queryRunTime: null
     - changesetObject: ''
@@ -48,12 +54,14 @@ template:
     - watchedParams: []
     - enableErrorTransformer: false
     - showLatestVersionUpdatedWarning: false
+    - paginationDataField: ''
     - timestamp: 0
     - evalType: script
     - importedQueryDefaults:
         ordered: []
     - enableTransformer: false
     - showUpdateSetValueDynamicallyToggle: true
+    - version: 2
     - overrideOrgCacheForUserCache: false
     - runWhenPageLoads: false
     - transformer: return data
@@ -61,25 +69,24 @@ template:
     - queryTimeout: '10000'
     - workflowId: null
     - requireConfirmation: false
+    - type: GET
     - queryFailureConditions: ''
     - changesetIsObject: false
     - enableCaching: false
     - allowedGroups: []
+    - bodyType: none
     - offlineQueryType: None
     - queryThrottleTime: '750'
     - updateSetValueDynamically: false
     - notificationDuration: ''
-createdAt: 2024-10-31T18:07:23.269Z
+createdAt: 2024-10-31T18:28:11.765Z
 blockData:
   top: 48
-  left: 480
-  uuid: 36f0be74-03d5-470d-9a6b-772b7fe41e0b
-  pluginId: code1
-  blockType: code
-  dimensions:
-    width: 400
-    height: 280
-  editorType: PythonQuery
-  resourceName: PythonQuery
+  left: 1392
+  uuid: f4814770-1232-440f-b4e4-6991c5d92057
+  pluginId: query2
+  blockType: default
+  editorType: RESTQuery
+  resourceName: REST-WithoutResource
   incomingOnSuccessEdges:
-    - b34600cd-a944-4dce-9862-85f699548e6f
+    - 0a132835-e0d5-45ac-9249-44b4c117fd22
