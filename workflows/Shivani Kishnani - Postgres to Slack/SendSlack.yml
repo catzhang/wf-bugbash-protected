@@ -1,0 +1,116 @@
+id: SendSlack
+type: datasource
+subtype: OpenAPIQuery
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - method: post
+    - allowedGroupIds: []
+    - streamResponse: false
+    - operationId: chat_postMessage
+    - lastReceivedFromResourceAt: null
+    - queryDisabledMessage: ''
+    - servedFromCache: false
+    - server: https://slack.com/api
+    - offlineUserQueryInputs: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - path: /chat.postMessage
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - autoPaginate: false
+    - showFailureToaster: true
+    - query: ''
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - error: null
+    - workflowRunBodyType: raw
+    - privateParams:
+        array: []
+    - queryRunOnSelectorUpdate: false
+    - runWhenPageLoadsDelay: ''
+    - parameters: '{"channel":"#workflows-updates","text":"{{ ProcessData.data }}"}'
+    - data: null
+    - specPathOverride: ''
+    - importedQueryInputs:
+        object: {}
+    - isImported: false
+    - showSuccessToaster: true
+    - cacheKeyTtl: ''
+    - requestSentTimestamp: null
+    - metadata: null
+    - requestBodyDynamicStates: ''
+    - queryRunTime: null
+    - changesetObject: ''
+    - requestBody: null
+    - offlineOptimisticResponse: null
+    - errorTransformer: >-
+        // The variable 'data' allows you to reference the request's data in the
+        transformer. 
+
+        // example: return data.find(element => element.isError)
+
+        return data.error
+    - specBasePath: https://slack.com/api
+    - finished: null
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: slackopenapi
+    - watchedParams:
+        array: []
+    - serverVariables: null
+    - enableErrorTransformer: false
+    - autoPaginateLimit: 500
+    - showLatestVersionUpdatedWarning: false
+    - timestamp: 0
+    - evalType: script
+    - importedQueryDefaults:
+        object: {}
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - parameterDynamicStates: >-
+        {"attachments":false,"blocks":false,"channel":false,"icon_emoji":false,"icon_url":false,"link_names":false,"mrkdwn":false,"parse":false,"reply_broadcast":false,"text":false,"thread_ts":false,"unfurl_links":false,"unfurl_media":false,"username":false}
+    - overrideOrgCacheForUserCache: false
+    - runWhenPageLoads: false
+    - transformer: >-
+        // type your code here
+
+        // example: return formatDataAsArray(data).filter(row => row.quantity >
+        20)
+
+        return data
+    - events:
+        array: []
+    - queryTimeout: '120000'
+    - workflowId: null
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups:
+        array: []
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2024-10-31T18:14:38.182Z
+blockData:
+  top: 48
+  left: 1616
+  uuid: 9a59bf81-cd80-4fce-ae6a-cefbdfc3e943
+  comment:
+    body: >-
+      Sends a simple text message. Use the [Block
+      builder](https://app.slack.com/block-kit-builder/T03Q236LG) to get fancy!
+    visible: true
+    pluginId: AppendToGSheets-comment
+  pluginId: SendSlack
+  blockType: default
+  editorType: OpenAPIQuery
+  incomingOnSuccessEdges:
+    - 1ec3689c-06f4-487b-aa36-a2a236545bd2

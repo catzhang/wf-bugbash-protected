@@ -1,4 +1,4 @@
-id: startTrigger
+id: code1
 type: datasource
 subtype: JavascriptQuery
 resourceName: JavascriptQuery
@@ -16,9 +16,15 @@ template:
     - playgroundQuerySaveId: latest
     - workflowParams: null
     - resourceNameOverride: ''
-    - runWhenModelUpdates: false
+    - runWhenModelUpdates: true
     - showFailureToaster: true
-    - query: return null
+    - query: |-
+        return [
+          { message: "Hello from Workflows" },
+          { message: "Click the Run (▶) button to execute this block" },
+          { message: "Drag from the green sequence port to connect a new block" },
+          { message: "Click the help (?) button to learn more" },
+        ];
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
@@ -35,8 +41,10 @@ template:
     - cacheKeyTtl: ''
     - requestSentTimestamp: null
     - metadata: null
+    - editorMode: sql
     - queryRunTime: null
     - changesetObject: ''
+    - offlineOptimisticResponse: null
     - errorTransformer: return data.error
     - finished: null
     - confirmationMessage: null
@@ -58,7 +66,7 @@ template:
     - runWhenPageLoads: false
     - transformer: return data
     - events: []
-    - queryTimeout: '10000'
+    - queryTimeout: '120000'
     - workflowId: null
     - requireConfirmation: false
     - queryFailureConditions: ''
@@ -69,15 +77,17 @@ template:
     - queryThrottleTime: '750'
     - updateSetValueDynamically: false
     - notificationDuration: ''
-createdAt: 2024-10-25T17:01:47.500Z
+createdAt: 2024-10-31T18:19:52.588Z
 blockData:
   top: 48
-  left: 48
-  uuid: d2e72400-1c2e-4ea1-8a3e-e1c202de0aee
-  options: {}
-  pluginId: startTrigger
-  blockType: webhook
+  left: 480
+  uuid: 84f40f5b-b43b-4027-9de9-bffd03f8ef56
+  pluginId: code1
+  blockType: code
+  dimensions:
+    width: 400
+    height: 280
   editorType: JavascriptQuery
-  isMinimized: false
   resourceName: JavascriptQuery
-  incomingOnSuccessEdges: []
+  incomingOnSuccessEdges:
+    - 52182366-96cb-4a2c-8497-ff37789ce4df

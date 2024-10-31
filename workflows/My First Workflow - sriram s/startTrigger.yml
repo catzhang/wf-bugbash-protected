@@ -37,6 +37,7 @@ template:
     - metadata: null
     - queryRunTime: null
     - changesetObject: ''
+    - offlineOptimisticResponse: null
     - errorTransformer: return data.error
     - finished: null
     - confirmationMessage: null
@@ -69,11 +70,11 @@ template:
     - queryThrottleTime: '750'
     - updateSetValueDynamically: false
     - notificationDuration: ''
-createdAt: 2024-10-25T17:01:47.500Z
+createdAt: 2024-10-31T18:11:20.024Z
 blockData:
   top: 48
   left: 48
-  uuid: d2e72400-1c2e-4ea1-8a3e-e1c202de0aee
+  uuid: 83e013c5-8532-47d1-86e8-4fffc2315924
   options: {}
   pluginId: startTrigger
   blockType: webhook
