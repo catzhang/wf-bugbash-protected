@@ -1,4 +1,4 @@
-id: function1
+id: query1
 type: datasource
 subtype: RESTQuery
 resourceName: REST-WithoutResource
@@ -18,12 +18,12 @@ template:
     - playgroundQuerySaveId: latest
     - workflowParams: null
     - resourceNameOverride: ''
-    - runWhenModelUpdates: false
+    - runWhenModelUpdates: true
     - paginationPaginationField: ''
     - headers: ''
     - showFailureToaster: true
     - paginationEnabled: false
-    - query: www.google.com
+    - query: ''
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
@@ -79,15 +79,14 @@ template:
     - queryThrottleTime: '750'
     - updateSetValueDynamically: false
     - notificationDuration: ''
-createdAt: 2024-10-25T18:05:48.166Z
+createdAt: 2024-10-31T18:25:46.714Z
 blockData:
-  top: 40
-  left: 40
-  uuid: 1d9d7aa9-f152-42ae-8f2a-81c86bc4d6ce
-  options:
-    parameters: []
-  pluginId: function1
-  blockType: function
+  top: 144
+  left: 1536
+  uuid: ff002fc4-c64f-4b92-b23c-7de737347c6c
+  pluginId: query1
+  blockType: default
   editorType: RESTQuery
   resourceName: REST-WithoutResource
-  incomingOnSuccessEdges: []
+  incomingOnSuccessEdges:
+    - 2790efe6-7a39-4fd0-960b-9e23704e9a0a
