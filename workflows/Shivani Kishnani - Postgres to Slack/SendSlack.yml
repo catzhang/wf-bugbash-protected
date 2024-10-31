@@ -112,6 +112,5 @@ blockData:
   pluginId: SendSlack
   blockType: default
   editorType: OpenAPIQuery
-  resourceName: ''
   incomingOnSuccessEdges:
     - 1ec3689c-06f4-487b-aa36-a2a236545bd2

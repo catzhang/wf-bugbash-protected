@@ -1,12 +1,14 @@
-id: startTrigger
+id: query2
 type: datasource
-subtype: JavascriptQuery
-resourceName: JavascriptQuery
+subtype: RESTQuery
+resourceName: REST-WithoutResource
 template:
   ordered:
     - queryRefreshTime: ''
+    - paginationLimit: ''
     - allowedGroupIds: []
     - streamResponse: false
+    - body: ''
     - lastReceivedFromResourceAt: null
     - queryDisabledMessage: ''
     - servedFromCache: false
@@ -16,9 +18,12 @@ template:
     - playgroundQuerySaveId: latest
     - workflowParams: null
     - resourceNameOverride: ''
-    - runWhenModelUpdates: false
+    - runWhenModelUpdates: true
+    - paginationPaginationField: ''
+    - headers: ''
     - showFailureToaster: true
-    - query: return null
+    - paginationEnabled: false
+    - query: ''
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
@@ -29,11 +34,11 @@ template:
     - data: null
     - importedQueryInputs:
         ordered: []
-    - _additionalScope: []
     - isImported: false
     - showSuccessToaster: true
     - cacheKeyTtl: ''
     - requestSentTimestamp: null
+    - cookies: ''
     - metadata: null
     - queryRunTime: null
     - changesetObject: ''
@@ -49,12 +54,14 @@ template:
     - watchedParams: []
     - enableErrorTransformer: false
     - showLatestVersionUpdatedWarning: false
+    - paginationDataField: ''
     - timestamp: 0
     - evalType: script
     - importedQueryDefaults:
         ordered: []
     - enableTransformer: false
     - showUpdateSetValueDynamicallyToggle: true
+    - version: 2
     - overrideOrgCacheForUserCache: false
     - runWhenPageLoads: false
     - transformer: return data
@@ -62,23 +69,24 @@ template:
     - queryTimeout: '10000'
     - workflowId: null
     - requireConfirmation: false
+    - type: GET
     - queryFailureConditions: ''
     - changesetIsObject: false
     - enableCaching: false
     - allowedGroups: []
+    - bodyType: none
     - offlineQueryType: None
     - queryThrottleTime: '750'
     - updateSetValueDynamically: false
     - notificationDuration: ''
-createdAt: 2024-10-31T18:13:18.952Z
+createdAt: 2024-10-31T18:20:01.148Z
 blockData:
-  top: 48
-  left: 48
-  uuid: bfa93b3d-47f9-4dc6-b0c6-144683f929d8
-  options: {}
-  pluginId: startTrigger
-  blockType: webhook
-  editorType: JavascriptQuery
-  isMinimized: false
-  resourceName: JavascriptQuery
-  incomingOnSuccessEdges: []
+  top: 16
+  left: 1680
+  uuid: 70a0e515-0e9e-495d-8c39-09877c4ffb9c
+  pluginId: query2
+  blockType: default
+  editorType: RESTQuery
+  resourceName: REST-WithoutResource
+  incomingOnSuccessEdges:
+    - 6fe7ab46-91b1-4025-b607-4aea95782634

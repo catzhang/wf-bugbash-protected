@@ -1,14 +1,13 @@
-id: GetRowsFromPostgres
+id: branch1
 type: datasource
-subtype: SqlQueryUnified
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
 template:
   ordered:
     - queryRefreshTime: ''
     - allowedGroupIds: []
     - streamResponse: false
-    - records: ''
     - lastReceivedFromResourceAt: null
-    - databasePasswordOverride: ''
     - queryDisabledMessage: ''
     - servedFromCache: false
     - offlineUserQueryInputs: ''
@@ -19,108 +18,83 @@ template:
     - resourceNameOverride: ''
     - runWhenModelUpdates: false
     - showFailureToaster: true
-    - query: |-
-        -- replace with any select statement you'd like to run
-        select * 
-        from users
-        limit 100
+    - query: |
+        if (false) {
+          executePathAtMostOnce('0')
+        }
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
     - workflowRunBodyType: raw
-    - privateParams:
-        array: []
+    - privateParams: []
     - queryRunOnSelectorUpdate: false
     - runWhenPageLoadsDelay: ''
-    - warningCodes:
-        array: []
     - data: null
-    - recordId: ''
     - importedQueryInputs:
-        object: {}
+        ordered: []
     - _additionalScope: []
     - isImported: false
     - showSuccessToaster: true
-    - dataArray:
-        array: []
     - cacheKeyTtl: ''
-    - filterBy: ''
     - requestSentTimestamp: null
-    - databaseHostOverride: ''
     - metadata: null
     - editorMode: sql
     - queryRunTime: null
-    - actionType: ''
     - changesetObject: ''
-    - shouldUseLegacySql: false
     - offlineOptimisticResponse: null
-    - errorTransformer: >-
-        // The variable 'data' allows you to reference the request's data in the
-        transformer. 
-
-        // example: return data.find(element => element.isError)
-
-        return data.error
+    - errorTransformer: return data.error
     - finished: null
-    - databaseNameOverride: ''
     - confirmationMessage: null
     - isFetching: false
     - changeset: ''
     - rawData: null
     - queryTriggerDelay: '0'
-    - resourceTypeOverride: postgresql
-    - watchedParams:
-        array: []
+    - resourceTypeOverride: null
+    - watchedParams: []
     - enableErrorTransformer: false
-    - databaseWarehouseOverride: ''
-    - enableBulkUpdates: false
     - showLatestVersionUpdatedWarning: false
     - timestamp: 0
     - evalType: script
     - importedQueryDefaults:
-        object: {}
+        ordered: []
     - enableTransformer: false
     - showUpdateSetValueDynamicallyToggle: true
     - overrideOrgCacheForUserCache: false
-    - bulkUpdatePrimaryKey: ''
     - runWhenPageLoads: false
-    - transformer: >-
-        // type your code here
-
-        // example: return formatDataAsArray(data).filter(row => row.quantity >
-        20)
-
-        return data
-    - events:
-        array: []
-    - tableName: ''
-    - queryTimeout: '120000'
+    - transformer: return data
+    - events: []
+    - queryTimeout: '10000'
     - workflowId: null
     - requireConfirmation: false
     - queryFailureConditions: ''
     - changesetIsObject: false
     - enableCaching: false
-    - allowedGroups:
-        array: []
-    - databaseUsernameOverride: ''
-    - databaseRoleOverride: ''
-    - shouldEnableBatchQuerying: false
-    - doNotThrowOnNoOp: false
+    - allowedGroups: []
     - offlineQueryType: None
     - queryThrottleTime: '750'
     - updateSetValueDynamically: false
     - notificationDuration: ''
-createdAt: 2024-10-31T18:14:38.181Z
+createdAt: 2024-10-31T18:14:51.287Z
 blockData:
-  top: 0
-  left: 432
-  uuid: 2af72788-b76b-445b-96a0-6a2c0e40abfb
-  comment:
-    body: Modify sql below and press ▶️
-    visible: true
-    pluginId: GetRowsFromPostgres-comment
-  pluginId: GetRowsFromPostgres
-  blockType: default
-  editorType: SqlQueryUnified
+  top: -16
+  left: 1488
+  uuid: c5831d18-ed8e-4706-a82c-55dfb7eccc3c
+  options:
+    conditions:
+      - id: d1bcef81-0a05-4e29-9c25-05b88f0a3dc8
+        type: if
+        statement: ''
+        outgoingPortId: 77a29385-26a6-43bc-8507-b4430d68dd18
+  pluginId: branch1
+  blockType: conditional
+  editorType: JavascriptQuery
+  onboarding: false
+  isMinimized: false
+  resourceName: JavascriptQuery
+  incomingPorts: []
+  outgoingPorts:
+    - id: 77a29385-26a6-43bc-8507-b4430d68dd18
+      name: '0'
+      type: conditional
   incomingOnSuccessEdges:
-    - 9ef7cb19-8cda-422f-97c3-43482792c07b
+    - d92e4c25-8bb6-4f64-9978-af722f9036e1
