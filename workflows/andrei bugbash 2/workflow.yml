@@ -14,11 +14,6 @@ pythonLanguageConfiguration:
 customLibraries:
   array:
     - object:
-        version: 1.24.1
-        language: python
-        codeString: ''
-        libraryName: numpy
-    - object:
         version: 4.17.21
         language: javascript
         variable: _
