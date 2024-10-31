@@ -1,5 +1,23 @@
+pythonLanguageConfiguration:
+  object:
+    id: 2ed0a90e-e7ea-420a-9265-4c6d91ca5960
+    name: workflow_python_60e00222-afeb-459d-aeb6-4ee5a39f4434
+    description: null
+    libraries:
+      object:
+        numpy:
+          object:
+            specVersion: 1.24.1
+            actualVersion: ''
+    librariesFormat: requirements.txt
+    language: python
 customLibraries:
   array:
+    - object:
+        version: 1.24.1
+        language: python
+        codeString: ''
+        libraryName: numpy
     - object:
         version: 4.17.21
         language: javascript
