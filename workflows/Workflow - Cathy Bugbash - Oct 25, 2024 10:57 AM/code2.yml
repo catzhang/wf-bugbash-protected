@@ -1,4 +1,4 @@
-id: startTrigger
+id: code2
 type: datasource
 subtype: JavascriptQuery
 resourceName: JavascriptQuery
@@ -18,7 +18,7 @@ template:
     - resourceNameOverride: ''
     - runWhenModelUpdates: false
     - showFailureToaster: true
-    - query: return null
+    - query: return code1.data
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
@@ -70,15 +70,14 @@ template:
     - queryThrottleTime: '750'
     - updateSetValueDynamically: false
     - notificationDuration: ''
-createdAt: 2024-10-25T17:57:20.253Z
+createdAt: 2024-10-31T18:14:38.533Z
 blockData:
-  top: 48
-  left: 48
-  uuid: 42bc5fff-9ab9-494f-932f-5e735e763998
-  options: {}
-  pluginId: startTrigger
-  blockType: webhook
+  top: 64
+  left: 1088
+  uuid: b469a298-6790-4e52-948f-0a614c9c2d13
+  pluginId: code2
+  blockType: code
   editorType: JavascriptQuery
-  isMinimized: false
   resourceName: JavascriptQuery
-  incomingOnSuccessEdges: []
+  incomingOnSuccessEdges:
+    - 645edfbd-a8bc-42de-8506-c51539df1d00
