@@ -18,7 +18,7 @@ template:
     - resourceNameOverride: ''
     - runWhenModelUpdates: false
     - showFailureToaster: true
-    - query: return "Hello mesi"
+    - query: return "Hello mesi - pt 2"
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
