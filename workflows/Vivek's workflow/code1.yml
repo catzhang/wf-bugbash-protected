@@ -80,7 +80,7 @@ template:
 createdAt: 2024-10-31T18:14:39.274Z
 blockData:
   top: 48
-  left: 480
+  left: 560
   uuid: 60c08b7a-c739-4b3a-bf51-5914a550f17c
   pluginId: code1
   blockType: code
@@ -88,6 +88,7 @@ blockData:
     width: 400
     height: 280
   editorType: JavascriptQuery
+  isMinimized: false
   resourceName: JavascriptQuery
   incomingOnSuccessEdges:
     - bbf7e28b-54ca-4f83-892e-193a1c4db5d1
