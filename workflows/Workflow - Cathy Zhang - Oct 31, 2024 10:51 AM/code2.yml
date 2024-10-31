@@ -72,8 +72,8 @@ template:
     - notificationDuration: ''
 createdAt: 2024-10-31T17:52:47.160Z
 blockData:
-  top: -48
-  left: 1120
+  top: -80
+  left: 1136
   uuid: 6fe7ab46-91b1-4025-b607-4aea95782634
   pluginId: code2
   blockType: code
