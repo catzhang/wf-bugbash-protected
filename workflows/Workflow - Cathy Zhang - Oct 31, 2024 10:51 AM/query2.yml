@@ -1,0 +1,92 @@
+id: query2
+type: datasource
+subtype: RESTQuery
+resourceName: REST-WithoutResource
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - paginationLimit: ''
+    - allowedGroupIds: []
+    - streamResponse: false
+    - body: ''
+    - lastReceivedFromResourceAt: null
+    - queryDisabledMessage: ''
+    - servedFromCache: false
+    - offlineUserQueryInputs: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: true
+    - paginationPaginationField: ''
+    - headers: ''
+    - showFailureToaster: true
+    - paginationEnabled: false
+    - query: ''
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - error: null
+    - workflowRunBodyType: raw
+    - privateParams: []
+    - queryRunOnSelectorUpdate: false
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - importedQueryInputs:
+        ordered: []
+    - isImported: false
+    - showSuccessToaster: true
+    - cacheKeyTtl: ''
+    - requestSentTimestamp: null
+    - cookies: ''
+    - metadata: null
+    - queryRunTime: null
+    - changesetObject: ''
+    - offlineOptimisticResponse: null
+    - errorTransformer: return data.error
+    - finished: null
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
+    - watchedParams: []
+    - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
+    - paginationDataField: ''
+    - timestamp: 0
+    - evalType: script
+    - importedQueryDefaults:
+        ordered: []
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - version: 2
+    - overrideOrgCacheForUserCache: false
+    - runWhenPageLoads: false
+    - transformer: return data
+    - events: []
+    - queryTimeout: '10000'
+    - workflowId: null
+    - requireConfirmation: false
+    - type: GET
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups: []
+    - bodyType: none
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2024-10-31T18:20:01.148Z
+blockData:
+  top: 16
+  left: 1680
+  uuid: 70a0e515-0e9e-495d-8c39-09877c4ffb9c
+  pluginId: query2
+  blockType: default
+  editorType: RESTQuery
+  resourceName: REST-WithoutResource
+  incomingOnSuccessEdges:
+    - 6fe7ab46-91b1-4025-b607-4aea95782634
