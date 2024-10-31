@@ -81,8 +81,8 @@ template:
     - notificationDuration: ''
 createdAt: 2024-10-31T18:20:01.148Z
 blockData:
-  top: 16
-  left: 1680
+  top: 0
+  left: 1616
   uuid: 70a0e515-0e9e-495d-8c39-09877c4ffb9c
   pluginId: query2
   blockType: default
