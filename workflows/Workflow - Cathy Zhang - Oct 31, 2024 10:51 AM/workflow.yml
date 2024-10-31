@@ -48,18 +48,6 @@ customLibraries:
           /* Add destructured imports from library below
           eg. const { pow, log } = require("mathjs") */
         libraryName: moment-timezone
-    - object:
-        version: 3.4.0
-        language: javascript
-        variable: uuid
-        codeString: |
-          /* Edit library variable below */
-
-          const uuid = require('uuid')
-
-          /* Add destructured imports from library below
-          eg. const { pow, log } = require("mathjs") */
-        libraryName: uuid
 name: Workflow - Cathy Zhang - Oct 31, 2024 10:51 AM
 setupScripts:
   object:
@@ -68,7 +56,7 @@ setupScripts:
         codeString: ''
     javascript:
       object:
-        codeString: |
+        codeString: |-
           // lodash
           /* Edit library variable below */
 
@@ -76,6 +64,7 @@ setupScripts:
 
           /* Add destructured imports from library below
           eg. const { pow, log } = require("mathjs") */
+
 
           // numbro
           /* Edit library variable below */
@@ -85,6 +74,7 @@ setupScripts:
           /* Add destructured imports from library below
           eg. const { pow, log } = require("mathjs") */
 
+
           // papaparse
           /* Edit library variable below */
 
@@ -93,18 +83,11 @@ setupScripts:
           /* Add destructured imports from library below
           eg. const { pow, log } = require("mathjs") */
 
+
           // moment-timezone
           /* Edit library variable below */
 
           const moment = require('moment-timezone')
-
-          /* Add destructured imports from library below
-          eg. const { pow, log } = require("mathjs") */
-
-          // uuid
-          /* Edit library variable below */
-
-          const uuid = require('uuid')
 
           /* Add destructured imports from library below
           eg. const { pow, log } = require("mathjs") */
