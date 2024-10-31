@@ -112,8 +112,8 @@ template:
     - notificationDuration: ''
 createdAt: 2024-10-31T18:14:38.181Z
 blockData:
-  top: 48
-  left: 512
+  top: 0
+  left: 432
   uuid: 2af72788-b76b-445b-96a0-6a2c0e40abfb
   comment:
     body: Modify sql below and press ▶️
@@ -122,6 +122,5 @@ blockData:
   pluginId: GetRowsFromPostgres
   blockType: default
   editorType: SqlQueryUnified
-  resourceName: ''
   incomingOnSuccessEdges:
     - 9ef7cb19-8cda-422f-97c3-43482792c07b

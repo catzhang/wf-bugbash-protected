@@ -88,7 +88,7 @@ template:
     - notificationDuration: ''
 createdAt: 2024-10-31T18:14:38.181Z
 blockData:
-  top: 48
+  top: 0
   left: 48
   uuid: 9ef7cb19-8cda-422f-97c3-43482792c07b
   comment:
@@ -98,5 +98,5 @@ blockData:
   pluginId: startTrigger
   blockType: webhook
   editorType: JavascriptQuery
-  resourceName: webhook
+  resourceName: JavascriptQuery
   incomingOnSuccessEdges: []
