@@ -1,4 +1,4 @@
-id: code1
+id: function1
 type: datasource
 subtype: RESTQuery
 resourceName: REST-WithoutResource
@@ -23,7 +23,7 @@ template:
     - headers: ''
     - showFailureToaster: true
     - paginationEnabled: false
-    - query: ''
+    - query: null
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
@@ -56,7 +56,6 @@ template:
     - showLatestVersionUpdatedWarning: false
     - paginationDataField: ''
     - timestamp: 0
-    - evalType: script
     - importedQueryDefaults:
         ordered: []
     - enableTransformer: false
@@ -79,14 +78,18 @@ template:
     - queryThrottleTime: '750'
     - updateSetValueDynamically: false
     - notificationDuration: ''
-createdAt: 2024-10-31T18:10:03.266Z
+createdAt: 2024-10-31T17:54:13.825Z
 blockData:
-  top: -16
-  left: 608
-  uuid: 16f4528d-2045-4507-8016-7938b4f8086c
-  pluginId: code1
-  blockType: default
+  top: 40
+  left: 40
+  uuid: 1d2c56eb-31af-41bb-9c15-9980a6bb2500
+  options:
+    parameters:
+      - id: b037189d-2e42-44aa-a01c-e110d8d3ce66
+        name: param1
+        exampleValue: ''
+  pluginId: function1
+  blockType: function
   editorType: RESTQuery
   resourceName: REST-WithoutResource
-  incomingOnSuccessEdges:
-    - 1147c328-7ac2-42ff-b83a-f885ea1ce3fe
+  incomingOnSuccessEdges: []
