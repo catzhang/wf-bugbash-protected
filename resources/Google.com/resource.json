@@ -12,7 +12,7 @@
   "options": {
     "baseURL": "https://www.google.com",
     "headers": [["", ""]],
-    "urlparams": [["", ""]],
+    "urlparams": [["", "sfs"]],
     "auth0_domain": "",
     "bearer_token": "",
     "oauth2_scope": "",
