@@ -18,9 +18,7 @@ template:
     - resourceNameOverride: ''
     - runWhenModelUpdates: true
     - showFailureToaster: true
-    - query: |-
-        const launchExcitement = "super excited!"
-        return launchExcitement
+    - query: return startTrigger.data.launchExcitement
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null

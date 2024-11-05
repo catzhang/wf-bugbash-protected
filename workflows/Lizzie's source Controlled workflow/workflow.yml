@@ -118,7 +118,7 @@ triggerWebhooks:
             properties:
               array: []
         useHeaderApiKey: false
-        exampleInputJSON: ''
+        exampleInputJSON: '{launchExcitement: "super excited!"}'
 version: 43.0.9
 workflowId: 437045e6-7259-4107-a8a6-8fcecc4973e4
 description: null
