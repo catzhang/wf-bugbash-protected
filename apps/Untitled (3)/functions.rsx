@@ -5,6 +5,6 @@
     notificationDuration={4.5}
     resourceName="WorkflowRun"
     showSuccessToaster={false}
-    workflowId="7563d0c8-405f-42c3-af8a-82e392917849"
+    workflowId="437045e6-7259-4107-a8a6-8fcecc4973e4"
   />
 </GlobalFunctions>
