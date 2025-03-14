@@ -1,11 +1,14 @@
-id: startTrigger
+id: query1
 type: datasource
-subtype: JavascriptQuery
-resourceName: JavascriptQuery
+subtype: RESTQuery
+resourceName: 5e118f64-22a5-4a1a-a698-6b7451ea36d8
+resourceDisplayName: httpbin
 template:
   queryRefreshTime: ''
+  paginationLimit: ''
   allowedGroupIds: []
   streamResponse: false
+  body: ''
   lastReceivedFromResourceAt: null
   isFunction: false
   functionParameters: null
@@ -18,10 +21,13 @@ template:
   playgroundQuerySaveId: latest
   workflowParams: null
   resourceNameOverride: ''
-  runWhenModelUpdates: false
+  runWhenModelUpdates: true
+  paginationPaginationField: ''
   workflowRunExecutionType: sync
+  headers: ''
   showFailureToaster: true
-  query: return null
+  paginationEnabled: false
+  query: ''
   playgroundQueryUuid: ''
   playgroundQueryId: null
   error: null
@@ -31,11 +37,11 @@ template:
   runWhenPageLoadsDelay: ''
   data: null
   importedQueryInputs: {}
-  _additionalScope: []
   isImported: false
   showSuccessToaster: true
   cacheKeyTtl: ''
   requestSentTimestamp: null
+  cookies: ''
   metadata: null
   queryRunTime: null
   changesetObject: ''
@@ -51,11 +57,13 @@ template:
   watchedParams: []
   enableErrorTransformer: false
   showLatestVersionUpdatedWarning: false
+  paginationDataField: ''
   timestamp: 0
   evalType: script
   importedQueryDefaults: {}
   enableTransformer: false
   showUpdateSetValueDynamicallyToggle: true
+  version: 2
   overrideOrgCacheForUserCache: false
   runWhenPageLoads: false
   transformer: return data
@@ -63,23 +71,24 @@ template:
   queryTimeout: '10000'
   workflowId: null
   requireConfirmation: false
+  type: GET
   queryFailureConditions: ''
   changesetIsObject: false
   enableCaching: false
   allowedGroups: []
+  bodyType: none
   offlineQueryType: None
   queryThrottleTime: '750'
   updateSetValueDynamically: false
   notificationDuration: ''
-createdAt: 2025-03-14T18:06:21.730Z
+createdAt: 2025-03-14T18:17:43.840Z
 blockData:
-  top: 48
-  left: 48
-  uuid: fa94f058-aa51-4ab2-8c51-8fb41d6de629
-  options: {}
-  pluginId: startTrigger
-  blockType: webhook
-  editorType: JavascriptQuery
-  isMinimized: false
-  resourceName: JavascriptQuery
-  incomingOnSuccessEdges: []
+  top: 16
+  left: 1136
+  uuid: aac0e9a4-dfb8-459d-8deb-fc06d90ef766
+  pluginId: query1
+  blockType: default
+  editorType: RESTQuery
+  resourceName: 5e118f64-22a5-4a1a-a698-6b7451ea36d8
+  incomingOnSuccessEdges:
+    - 58acb4ee-812f-40ee-8fb4-bba98164f892
