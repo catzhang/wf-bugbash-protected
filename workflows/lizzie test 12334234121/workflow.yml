@@ -123,4 +123,5 @@ version: 43.0.9
 workflowId: 3cb48bf9-5715-49a8-b0ce-976ac7b0d33f
 description: null
 workflowTemplate:
-  version: 3.111.0
+  serializedLayout: null
+  version: 3.171.0
